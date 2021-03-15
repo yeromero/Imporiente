@@ -80,10 +80,10 @@ main .columna-4{
     width: 75%;
     margin-left: -15%;
 }
-.infocomercial img{
+/* .infocomercial img{
     margin: 6px;
     border: 1px solid rgb(231, 231, 231);
-}
+} */
 @media(max-width: 800px){
     *{
         border: none;
