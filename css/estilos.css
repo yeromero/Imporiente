@@ -163,6 +163,9 @@ main .columna-4{
         display: flex;
         flex-direction: column;
     }
+    .infocomercial img{
+        width: 100%;
+    }
 }
 @media(max-width:280px){
     
