@@ -1,10 +1,13 @@
 *{
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 body{
     font-size: 20px;
     font-family: "Roboto";
+    background-image: url("../img/19366.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header{
     padding: 15px 0;
@@ -14,6 +17,9 @@ header{
     z-index: 2;
     background-color: white;
     width: 100%;
+    background-image: url("../img/19366.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 header .contenedor .menu {
     display: none;
