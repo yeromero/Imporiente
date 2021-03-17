@@ -111,9 +111,10 @@ main .columna-4{
     margin-right: 200px;
 
 }
-.crc{
+section.crc{
     background: #01bfdf;
     margin: 15px;
+    width: 100%;
 }
 .crc img{
     display: block;
@@ -121,7 +122,6 @@ main .columna-4{
     margin-right: auto;
 }
 footer{
-    /* background: black; */
     width: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -150,6 +150,54 @@ footer .final-footer{
 }
 .redes{
     font-size: 70px;
+}
+section.empresa{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background: black; */
+}
+section.empresa .vision{
+    width: 45%;
+    text-align: justify;
+    margin: 35px;
+    background-color: #e7a61a;
+    padding: 25px;
+    box-shadow: 11px 24px 7px 8px rgba(0,0,0,0.75);
+}
+section.empresa .vision h2{
+    font-size: 60px;
+    text-align: center;
+    color: #295596;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -12px 9px 6px rgba(0,0,0,0.2);
+}
+section.empresa .mision{
+    width: 45%;
+    text-align: justify;
+    margin: 35px;
+    background-color: #e7a61a;
+    padding: 25px;
+    box-shadow: 11px 24px 7px 8px rgba(0,0,0,0.75);
+}
+section.empresa .mision h2{
+    font-size: 60px;
+    text-align: center;
+    color: #295596;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -12px 9px 6px rgba(0,0,0,0.2);
+}
+section.empresa .valores{
+    width: 50%;
+    text-align: justify;
+    margin: 35px;
+    background-color: #e7a61a;
+    padding: 25px;
+    box-shadow: 11px 24px 7px 8px rgba(0,0,0,0.75);
+}
+section.empresa .valores h2{
+    font-size: 60px;
+    text-align: center;
+    color: #295596;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -12px 9px 6px rgba(0,0,0,0.2);
 }
 @media(max-width: 800px){
     *{
