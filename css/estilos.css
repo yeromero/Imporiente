@@ -295,6 +295,11 @@ section.empresa .valores h2{
         width: 30%;
         margin-right: 35%;
     }
+    section.crc{
+        background: #01bfdf;
+        margin: 15px;
+        width: 93%;
+    }
     .crc img{
     display: block;
     margin-left: auto;
@@ -311,7 +316,21 @@ section.empresa .valores h2{
     .redes{
         font-size: 30px;
     }
-
+    section.empresa .vision{
+        width: 100%;
+    }
+    section.empresa .mision{
+        width: 100%;
+    }
+    section.empresa .valores{
+        width: 80%;
+    }
+    section.empresa .valores h2{
+        font-size: 35px;
+        text-align: center;
+        color: #295596;
+        text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -12px 9px 6px rgba(0,0,0,0.2);
+    }
 }
 @media(max-width:280px){
     
