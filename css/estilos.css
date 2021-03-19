@@ -134,7 +134,7 @@ footer .columna{
 footer .columna a {
     text-decoration: none;
 }
-footer  .menu{
+footer  .menu-footer{
     list-style: none;
     text-align: left;
 }
@@ -148,6 +148,9 @@ footer .final-footer{
     margin-right: auto;
     background: gray;
 }
+.menu-footer a{
+    color: #295596;
+}
 .redes{
     font-size: 70px;
 }
@@ -155,7 +158,6 @@ section.empresa{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* background: black; */
 }
 section.empresa .vision{
     width: 45%;
@@ -198,6 +200,43 @@ section.empresa .valores h2{
     text-align: center;
     color: #295596;
     text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -12px 9px 6px rgba(0,0,0,0.2);
+}
+section div.proteccion{
+    margin-top: 15%;
+    text-align: center;
+}
+section div.proteccion h2{
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #295596;
+    text-shadow: 4px 3px 2px rgba(150, 150, 150, 0.61);
+}
+section div.proteccion img{
+    display: block;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+}
+section .normativa{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+} 
+section .normativa .columna-33{
+    width: 33.33%;
+}
+section .normativa .columna-33 a{
+    color: black;
+    font-weight: 600;
+    text-align: justify;
+    text-decoration: none;
+
+}
+section .normativa .columna-33 ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 @media(max-width: 800px){
     *{

@@ -15,6 +15,8 @@ function listo(){
         })
     })
 }
+
+
 $(document).ready(function(){
     $('.slider').bxSlider({
         slideMargin:10
