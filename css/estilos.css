@@ -370,6 +370,28 @@ section .normativa .columna-33 ul li{
         color: #295596;
         text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -12px 9px 6px rgba(0,0,0,0.2);
     }
+
+    section div.proteccion{
+        margin-top: 55%;
+        text-align: center;
+    }
+    section div.proteccion img{
+        display: block;
+        width: 100%;
+    }
+    section .normativa{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    } 
+    section .normativa .columna-33{
+        width: 100%;
+    }
+    section .normativa .columna-33 ul li{
+        list-style: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 @media(max-width:280px){
     
