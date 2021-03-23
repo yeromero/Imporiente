@@ -14,7 +14,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 2;
+    z-index: 3;
     background-color: white;
     width: 100%;
     background-image: url("../img/19366.jpg");
@@ -231,13 +231,97 @@ section .normativa .columna-33 a{
     font-weight: 600;
     text-align: justify;
     text-decoration: none;
-
 }
 section .normativa .columna-33 ul li{
     list-style: none;
     margin-left: 20px;
     margin-right: 20px;
 }
+section div.titulo{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 30px;
+    color: #295596;
+}
+section div.canales{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: -2%;
+}
+section div.canales ul{
+    background-color:   #fcc90c;
+    margin-top: 0;
+    width: 14%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+}
+section div.canales ul li{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+    transition: 0.5s cubic-bezier(0.4, 0.2 , 0.2, 1);
+    z-index: 2;
+    list-style: none;
+    background-color: red;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+section div.canales ul li img{
+    position: absolute;
+    /* border: 1px solid black; */
+    transform: rotateY(0deg);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    margin: auto;
+    width: 55%;
+    z-index: -1;
+}
+section div.canales ul li p{
+    position: absolute;
+    left: 35%;
+    top: 0;
+    visibility: hidden;
+    margin-bottom: 10%;
+    font-size: 30px;
+    transform: rotateY(360deg);
+    z-index: -1;
+}
+section div.canales ul li:hover{
+    transform: rotateY(360deg);
+}
+section div.canales ul li:hover > img{
+    visibility: hidden;
+}
+section div.canales ul li:hover > p{
+    visibility: visible;
+}
+section div.banner-programacion{
+    margin-top: 20px;
+}
+section div.banner-programacion img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+section div.programacion{
+    margin-top: 1%;
+    margin-left: 23.4%;
+    margin-right: 23.4%;
+}
+
 @media(max-width: 800px){
     *{
         border: none;
@@ -391,6 +475,28 @@ section .normativa .columna-33 ul li{
         list-style: none;
         margin-left: auto;
         margin-right: auto;
+    }
+    section div.canales h4{
+        color: #295596;
+        font-size: 25px;
+        margin-bottom: -1px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    section div.canales ul{
+        width: 100%;
+    }
+    section div.banner-programacion img{
+        width:100% ;
+    }
+    section div.programacion{
+        margin-top: 10%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    section div.programacion iframe{
+        width: 350px;
     }
 }
 @media(max-width:280px){
