@@ -277,7 +277,6 @@ section div.canales ul li{
 
 section div.canales ul li img{
     position: absolute;
-    /* border: 1px solid black; */
     transform: rotateY(0deg);
     top: 0;
     bottom: 0;
@@ -297,6 +296,7 @@ section div.canales ul li p{
     font-size: 30px;
     transform: rotateY(360deg);
     z-index: -1;
+    color: white;
 }
 section div.canales ul li:hover{
     transform: rotateY(360deg);
@@ -321,6 +321,24 @@ section div.programacion{
     margin-left: 23.4%;
     margin-right: 23.4%;
 }
+section div.banner-titulo img{
+    margin-top: 15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+
+
+
+section .tarifas .tabla-precios{
+    border: 1px solid black;
+}
+section .tarifas .tabla-precios .mes{
+    width: 33.33%;
+    border: 1px solid black;
+}
+
 
 @media(max-width: 800px){
     *{
