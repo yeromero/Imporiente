@@ -238,7 +238,7 @@ section .normativa .columna-33 ul li{
     margin-right: 20px;
 }
 section div.titulo{
-    margin-top: 15%;
+    margin-top: -2%;
     text-align: center;
     font-size: 30px;
     color: #295596;
@@ -274,7 +274,6 @@ section div.canales ul li{
     margin-bottom: 15px;
     margin-right: 5px;
 }
-
 section div.canales ul li img{
     position: absolute;
     transform: rotateY(0deg);
@@ -328,19 +327,18 @@ section div.banner-titulo img{
     margin-right: auto;
     background-color: black;
 }
-
-
+main section .divicion{
+    margin-top: 15%;
+}
 section .condicion-tabla{
     font-size: 25px;
     text-align: center;
     color: #295596;
 }
 section .tabla-precios{
-    border: 1px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid black;
 }
 section .tabla-precios .mes{
     width: 28%;
@@ -348,7 +346,7 @@ section .tabla-precios .mes{
     background-color: #14F528;
     color: white;
     margin: 20px;
-    border-radius: 20% 20% 20% 20%;
+    border-radius: 20% 20% 0 0;
 }
 section .tabla-precios .mes h1{
     font-size: 20px;
@@ -371,7 +369,6 @@ section .tabla-precios .mes h3 sub, section .tabla-precios .mes h3 sup{
     color: #A22EE6;
     font-weight: 600;
 }
-
 section .tabla-precios .mes h3 sub{
     font-size: 16px;
 }
@@ -382,10 +379,15 @@ section .tabla-precios .mes ul li{
     background-color: rgba(252, 200, 12, 0.774);
     padding: 10px 0;
     list-style: none;
-    border: 1px solid;
+    
 }
-section .tabla-precios .mes ul li:nth-child(2){
+section .tabla-precios .mes ul li .nota{
+    font-size: 10px;
+}
+section .tabla-precios .mes ul li:nth-child(2n){
     background-color: rgba(255, 255, 255, 0.774);
+    color: black;
+    border: 1px solid white;
 }
 section .tabla-precios .mes .btn{
     display: block;
@@ -395,8 +397,6 @@ section .tabla-precios .mes .btn{
     text-decoration: none;
     margin-bottom: 0;
 }
-
-
 @media(max-width: 800px){
     *{
         border: none;
