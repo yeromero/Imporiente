@@ -573,7 +573,8 @@ section .tabla-precios .mes .btn{
         margin-right: 0;
     }
     section div.programacion iframe{
-        width: 350px;
+        /* width: 350px; */
+        width: 100%;
     }
     section div.banner-titulo{
         margin-top: 50%;
