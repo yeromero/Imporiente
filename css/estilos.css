@@ -343,8 +343,9 @@ section .tabla-precios{
 section .tabla-precios .mes{
     width: 28%;
     text-align: center;
-    background-color: #14F528;
-    color: white;
+    /* background-color: #295596; */
+    border: 3px solid #295596;
+    color: black;
     margin: 20px;
     border-radius: 20% 20% 0 0;
 }
@@ -366,7 +367,7 @@ section .tabla-precios .mes h3{
 }
 section .tabla-precios .mes h3 sub, section .tabla-precios .mes h3 sup{ 
     font-size: 20px;
-    color: #A22EE6;
+    color: /* #A22EE6 */rgba(216, 216, 216, 0.76);
     font-weight: 600;
 }
 section .tabla-precios .mes h3 sub{
@@ -386,13 +387,12 @@ section .tabla-precios .mes ul li .nota{
 section .tabla-precios .mes ul li:nth-child(2n){
     background-color: rgba(255, 255, 255, 0.774);
     color: black;
-    border: 1px solid white;
 }
 section .tabla-precios .mes .btn{
     display: block;
     padding: 30px 0;
-    background-color: #26AAFC;
-    color: white;
+    background-color: #fcc90c;
+    color: black;
     text-decoration: none;
     margin-bottom: 0;
 }
