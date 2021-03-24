@@ -330,13 +330,70 @@ section div.banner-titulo img{
 }
 
 
-
-section .tarifas .tabla-precios{
+section .condicion-tabla{
+    font-size: 25px;
+    text-align: center;
+    color: #295596;
+}
+section .tabla-precios{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border: 1px solid black;
 }
-section .tarifas .tabla-precios .mes{
-    width: 33.33%;
-    border: 1px solid black;
+section .tabla-precios .mes{
+    width: 28%;
+    text-align: center;
+    background-color: #14F528;
+    color: white;
+    margin: 20px;
+    border-radius: 20% 20% 20% 20%;
+}
+section .tabla-precios .mes h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+section .tabla-precios .mes img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+section .tabla-precios .mes h3{
+    font-size: 60px;
+    font-weight: 300;
+    display: inline;
+}
+section .tabla-precios .mes h3 sub, section .tabla-precios .mes h3 sup{ 
+    font-size: 20px;
+    color: #A22EE6;
+    font-weight: 600;
+}
+
+section .tabla-precios .mes h3 sub{
+    font-size: 16px;
+}
+section .tabla-precios .mes ul{
+    margin-right: 40px;
+}
+section .tabla-precios .mes ul li{
+    background-color: rgba(252, 200, 12, 0.774);
+    padding: 10px 0;
+    list-style: none;
+    border: 1px solid;
+}
+section .tabla-precios .mes ul li:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.774);
+}
+section .tabla-precios .mes .btn{
+    display: block;
+    padding: 30px 0;
+    background-color: #26AAFC;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0;
 }
 
 
