@@ -2,6 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Imporiente cuenta con el mejor servicio de villaviencio y toda la calidad que necesitas">
+    <meta name="keywords" content="imporiente,television,internet">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/estilos.css">
@@ -153,7 +155,7 @@
                     </ul>
                 <p>O Visítanos en nuestras oficinas</p>
                 <p>Cra. 54 Sur N. 43 - 1, Barrio Porfia</p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.73096369899181!2d-73.66957674369537!3d4.082304867612451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e3016187221eb%3A0xc6cde9505d84f4be!2sCl.%2054%20Sur%2C%20Villavicencio%2C%20Meta!5e0!3m2!1ses-419!2sco!4v1616867073846!5m2!1ses-419!2sco" width="1280" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248.73096369899181!2d-73.66957674369537!3d4.082304867612451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3e3016187221eb%3A0xc6cde9505d84f4be!2sCl.%2054%20Sur%2C%20Villavicencio%2C%20Meta!5e0!3m2!1ses-419!2sco!4v1616867073846!5m2!1ses-419!2sco" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </section>
         <!-- Imagen de Covid19 -->
@@ -175,7 +177,6 @@
         <div class="columna columna-50 derecha">
             <ul class="menu-footer">
                 <li><a href="">Indicadores</a></li>
-                <li><a href="">Resolucion 19012 2020</a></li>
                 <li><a href="#">PQR</a></li>
             </ul>
         </div>

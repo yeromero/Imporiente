@@ -467,6 +467,23 @@ section .mapa-footer iframe{
     width: 90%;
     height: 500px;
 }
+section .mapa-oficina{
+    margin-top: 15%;
+    
+}
+section .mapa-oficina p{
+    display: block;
+    width: 30%;
+    font-weight: 900;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+section .mapa-oficina iframe{
+    width: 80%;
+    height: 600px;
+    margin-left: 11%;
+}
 @media(max-width: 800px){
     *{
         border: none;
