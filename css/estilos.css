@@ -114,7 +114,7 @@ main .columna-4{
 section.crc{
     background: #01bfdf;
     margin: 15px;
-    width: 100%;
+    width: 99%;
 }
 .crc img{
     display: block;
@@ -343,7 +343,6 @@ section .tabla-precios{
 section .tabla-precios .mes{
     width: 28%;
     text-align: center;
-    /* background-color: #295596; */
     border: 3px solid #295596;
     color: black;
     margin: 20px;
@@ -367,7 +366,7 @@ section .tabla-precios .mes h3{
 }
 section .tabla-precios .mes h3 sub, section .tabla-precios .mes h3 sup{ 
     font-size: 20px;
-    color: /* #A22EE6 */rgba(216, 216, 216, 0.76);
+    color: rgba(216, 216, 216, 0.76);
     font-weight: 600;
 }
 section .tabla-precios .mes h3 sub{
@@ -395,6 +394,95 @@ section .tabla-precios .mes .btn{
     color: black;
     text-decoration: none;
     margin-bottom: 0;
+}
+section .contenedor-formulario{
+    margin-top: 15%;
+    text-align: center;
+}
+section .contenedor-formulario .formulario {
+    padding: 15px;
+    background-color: rgba(252, 200, 12, 0.568);
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border-radius: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900px;
+}
+section .contenedor-formulario .formulario form .item-formulario{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 15px;
+}
+section form i{
+    font-size: 25px;
+    align-items: center;
+    display: block;
+}
+section form .form-control{
+    display: block;
+    font-size: 20px;
+    width: 90%;
+    margin-right: 0;
+    margin-left: 10px;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+}
+section form .btn-formulario{
+    display: block;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 13%;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #295596;
+    border: 1px solid white;
+    color: white;
+}
+section .mapa-footer{
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+section .mapa-footer p{
+    font-size: 30px;
+    color: rgba(0, 0, 255, 0.548);
+    text-shadow: 5px 5px 4px rgba(150, 150, 150, 1);
+}
+section .mapa-footer ul li{
+    list-style: none;
+}
+section .mapa-footer ul li a{
+    color: #295596;
+    text-decoration: none;
+}
+section .mapa-footer iframe{
+    width: 90%;
+    height: 500px;
+}
+section .mapa-oficina{
+    margin-top: 15%;
+    
+}
+section .mapa-oficina p{
+    display: block;
+    width: 30%;
+    font-weight: 900;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+section .mapa-oficina iframe{
+    width: 80%;
+    height: 600px;
+    margin-left: 11%;
 }
 @media(max-width: 800px){
     *{
@@ -573,7 +661,6 @@ section .tabla-precios .mes .btn{
         margin-right: 0;
     }
     section div.programacion iframe{
-        /* width: 350px; */
         width: 100%;
     }
     section div.banner-titulo{
@@ -586,6 +673,26 @@ section .tabla-precios .mes .btn{
     section .tabla-precios .mes{
         width: 100%;
     }
+    section .contenedor-formulario{
+        margin-top: 70%;
+    }
+    section form i,
+    section form .form-control{
+        font-size: 12px;
+    }
+
+    section .contenedor-formulario .formulario{
+        margin-top: 0;
+        width: 100%;
+        font-size: 15px;
+    }
+    section .mapa-footer p{
+        font-size: 12px;
+    }
+    section .mapa-footer iframe{
+        width: 100%;
+    }
+    
 }
 @media(max-width:280px){
     
