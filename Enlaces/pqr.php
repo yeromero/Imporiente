@@ -39,8 +39,8 @@
                     <h4>Solicitudes</h4>
                     <form action="pqr.php" method="POST">
                         <div class="item-formulario">    
-                            <i class="fas fa-id-card-alt"></i><select name="tipodocumento" class="form-control">
-                                <option value="0" selected>Elige una Opción</option>
+                            <i class="fas fa-id-card-alt"></i><select name="tipodocumento" class="form-control" required>
+                                <option value="" selected>Elige tu Tipo de Documento</option>
                                 <option value="Cedula de Ciudadania">Cedula de Ciudadanía</option>
                                 <option value="Cedula de Extranjeria">Cedula de Extranjería</option>
                                 <option value="NIT">NIT</option>
@@ -63,13 +63,15 @@
                             <i class="fas fa-road"></i><input type="text" name="barrio" placeholder="Barrio de Domicilio" class="form-control" required>
                         </div>
                         <div class="item-formulario">
-                            <i class="fas fa-concierge-bell"></i><select name="servicio" class="form-control">
+                            <i class="fas fa-concierge-bell"></i><select name="servicio" class="form-control" required>
+                                <option value="">Selecciona el Servicio que Tengas</option>
                                 <option value="Television">Televisón</option>
                                 <option value="Television">Televisón y Internet</option>
                             </select>
                         </div>
                         <div class="item-formulario">
-                            <i class="fas fa-headset"></i><select name="requerimiento" class="form-control">
+                            <i class="fas fa-headset"></i><select name="requerimiento" class="form-control" required>
+                                <option value="">Seleccione su Tipo de Solicitud</option>
                                 <option value="soporte">Soporte</option>
                                 <option value="peticion">Petición</option>
                                 <option value="queja">Queja</option>
@@ -160,7 +162,7 @@
         </section>
         <!-- Imagen de Covid19 -->
         <section class="crc">
-            <a href="https://www.crcom.gov.co/es/pagina/regimen-proteccion-usuario" target="_blank"><img src="../img/bamnnercrcabril2020.jpg" loading="lazy" loading="lazy" alt="" ></a>
+            <a href="https://www.crcom.gov.co/es/pagina/regimen-proteccion-usuario" target="_blank"><img src="../img/bamnnercrcabril2020.jfif" loading="lazy" loading="lazy" alt="" ></a>
         </section>
     </main>
     <footer>    

@@ -39,17 +39,18 @@
                     <h4>Contactenos</h4>
                     <form action="Contactenos.php" method="POST">
                         <div class="item-formulario">    
-                            <i class="fas fa-user"></i></label><input type="text" name="nombre"   class="form-control" placeholder="Nombre y Apellido">
+                            <i class="fas fa-user"></i></label><input type="text" name="nombre"   class="form-control" placeholder="Nombre y Apellido" required>
                         </div>
                         <div class="item-formulario">
-                        <i class="fas fa-phone-alt"></i></i></label><input type="text" name="telefono"   class="form-control" placeholder="Numero de Telefono">
+                        <i class="fas fa-phone-alt"></i></i></label><input type="text" name="telefono"   class="form-control" placeholder="Numero de Telefono" required>
                         </div>
                         <div class="item-formulario">
-                            <i class="fas fa-envelope"></i><input type="email" name="email"  class="form-control" placeholder="Email">
+                            <i class="fas fa-envelope"></i><input type="email" name="email"  class="form-control" placeholder="Email" required>
                         </div>
                         <div class="item-formulario">
                             <i class="fas fa-concierge-bell"></i>
-                            <select name="tiposervicio" class="form-control">
+                            <select name="tiposervicio" class="form-control" required>
+                                <option value="">Seleccione el Servicio que Tiene</option>
                                 <option value="Television">Televisión</option>
                                 <option value="TV +  Internet">Television + Internet</option>
                                 <option value="Punto Adicional">Punto Adicional</option>
@@ -59,7 +60,7 @@
                         </div>
                         <div class="item-formulario">
                             <i class="far fa-edit"></i>
-                            <textarea name="mensaje" placeholder="Mensaje a Enviar" class="form-control"></textarea>
+                            <textarea name="mensaje" placeholder="Mensaje a Enviar" class="form-control" required></textarea>
                         </div>
                         <div class="item-formulario">
                             <input type="submit" value="Enviar" class="btn-formulario">
@@ -116,7 +117,7 @@
         </section>
         <!-- Imagen de Covid19 -->
         <section class="crc">
-            <a href="https://www.crcom.gov.co/es/pagina/regimen-proteccion-usuario" target="_blank"><img src="../img/bamnnercrcabril2020.jpg" loading="lazy" alt=""></a>
+            <a href="https://www.crcom.gov.co/es/pagina/regimen-proteccion-usuario" target="_blank"><img src="../img/bamnnercrcabril2020.jfif" loading="lazy" alt=""></a>
         </section>
     </main>
     <footer>    

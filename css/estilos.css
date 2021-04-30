@@ -300,10 +300,10 @@ section div.canales ul li p{
 section div.canales ul li:hover{
     transform: rotateY(360deg);
 }
-section div.canales ul li:hover > img{
+section div.canales ul li:hover img{
     visibility: hidden;
 }
-section div.canales ul li:hover > p{
+section div.canales ul li:hover p{
     visibility: visible;
 }
 section div.banner-programacion{
@@ -638,7 +638,7 @@ section .mapa-oficina iframe{
         margin-right: auto;
     }
     main section .divicion{
-        margin-top: 50%;
+        margin-top: 55%;
         margin-bottom: 0;
     }
     section div.canales h4{
